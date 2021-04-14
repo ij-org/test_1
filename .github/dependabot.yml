@@ -1,0 +1,16 @@
+
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "10:05"
+      timezone: "Europe/London"
+
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "14:46"
+      timezone: "Europe/London"
